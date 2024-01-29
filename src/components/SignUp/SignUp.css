@@ -1,0 +1,62 @@
+.form-container{
+    width: 500px;
+    height: 600px;
+    border: 1px solid rgb(73, 38, 38);
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.form-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+
+}
+.form-control{
+    display: flex;
+    
+}
+.form-control label{
+    margin-left: 45px;
+    margin-top: 5px;
+    display: block;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    color: #2A414F;
+    margin-bottom: 10px;
+}
+.form-control input{
+    margin-left: 40px;
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95a8a7;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+.btn-sub{
+    width: 415px;
+    height: 55px;
+    margin-left: 46px;
+    margin-top: 40px;
+    background-color: rgba(255,153,0,0.3);
+    border-radius: 5px;
+    border: none;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+    color: rgb(27, 18, 18);
+    font-size: 21px;
+}
+.btn-sub:hover{
+    background-color: rgba(255,153,0,0.6);
+
+}
+.text-error{
+    color: red;
+}
