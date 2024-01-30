@@ -15,16 +15,16 @@
     letter-spacing: 0.0025em;
     color: #2A414F;
     text-align: center;
-
 }
-.form-control{
+/* .form-control{
     display: flex;
+    this is create problem in same class use in login.css 
     
-}
+} */
 .form-control label{
+    display: block;
     margin-left: 45px;
     margin-top: 5px;
-    display: block;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.0015em;

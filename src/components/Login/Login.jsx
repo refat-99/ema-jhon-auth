@@ -41,7 +41,7 @@ const Login = () =>{
                 <div className='form-control'>
                   <label htmlFor='password'>Password</label>
                   <input type={show ? 'text' : "password"} name='password' required />
-                  <p onClick={() => setShow(!show)}> <small>
+                  <p onClick={() => setShow(!show)} className='ptag'> <small>
                    {
                     show ? <span>Hide Password</span>: <span>Show Password</span>
                    } 
@@ -50,7 +50,7 @@ const Login = () =>{
                 </div>
                 <input type='submit' value='Login' className='btn-sub' />
             </form>
-            <p>
+            <p className='ptag'>
                 <small>
                     New to ema-jhon?
                      <Link to="/SignUp">Sign Up</Link>                     
